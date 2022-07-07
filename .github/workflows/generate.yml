@@ -8,7 +8,7 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: ppodds/mc-status-card@v0.2.1
+      - uses: ppodds/mc-status-card@main
         with:
           host: ppodds.website
           bgImage: https://i.imgur.com/MNt59oI.png
