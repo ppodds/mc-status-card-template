@@ -8,9 +8,9 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: ppodds/mc-status-card@v0.2
+      - uses: ppodds/mc-status-card@v0.2.1
         with:
-          host: "ppodds.website"
-          bgImage: "https://i.imgur.com/MNt59oI.pn"
+          host: ppodds.website
+          bgImage: https://i.imgur.com/MNt59oI.png
           branch: master
           token: ${{ secrets.GITHUB_TOKEN }}
