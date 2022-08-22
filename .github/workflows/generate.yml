@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: ppodds/mc-status-card@main
         with:
-          host: ppodds.website
+          host: ppodds.cc
           bgImage: https://i.imgur.com/MNt59oI.png
           branch: master
           token: ${{ secrets.GITHUB_TOKEN }}
